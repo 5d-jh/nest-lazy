@@ -8,5 +8,6 @@ import { Global, Module } from "@nestjs/common";
       useValue: "hi",
     },
   ],
+  exports: ['GLOBAL']
 })
 export class GlobalModule {}
